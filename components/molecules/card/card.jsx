@@ -5,17 +5,17 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import styles from "./card.module.css";
-import { MainButton } from "../../atoms/mainButton/MainButton";
+import { MainButton } from "../../atomos/main-button/Main-button";
 
 export const CardProject = ({ project }) => {
-    const handleClick=()=>{}
+    console.log(project.name);
     return (
         <>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345 }} >
                 <CardMedia
                     className={styles.imageProject}
                     component="img"
-                    alt="green iguana"
+                    alt={project.name}
                     height="140"
                     image={project.photo}
                     title={project.name}
@@ -48,7 +48,7 @@ export const CardProject = ({ project }) => {
                         color="text.secondary"
                         className={styles.tipoProject}
                     >
-                        Tipo: {project.tipo}, Empresa: {project.enterprise}
+                        Tipo: {project.type}, Empresa: {project.enterprise}
                     </Typography>
                     <Typography
                         variant="body2"
@@ -59,7 +59,7 @@ export const CardProject = ({ project }) => {
                     </Typography>
                 </CardContent>
                 <CardActions className={styles.containerButton}>
-                    <MainButton size="small" className={styles.buttonCardProject} onClick={handleClick}>
+                    <MainButton size="small" className={styles.buttonCardProject}>
                         Detalles
                     </MainButton>
                 </CardActions>

@@ -4,16 +4,18 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
+import styles from "./about.module.css"
 
 export const About = () => {
     return (
-        <Card sx={{ maxWidth: 500 }}>
+        <Card sx={{ maxWidth: 500 }} className={styles.cardAbout}>
             <CardActionArea>
                 <CardMedia
                     component="img"
                     height="500"
                     image="/009_PhotosNexuraMembers.png"
-                    alt="green iguana"
+                    alt="john jairo cortes murillo"
+                    title="john jairo cortes murillo"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">

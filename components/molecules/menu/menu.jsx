@@ -108,7 +108,7 @@ export const MainMenu = () => {
                             ))}
                         </Menu>
                     </Box>
-                    <AdbIcon
+                    <PublicIcon
                         sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
                     />
                     <Typography
@@ -127,7 +127,7 @@ export const MainMenu = () => {
                             textDecoration: "none",
                         }}
                     >
-                        LOGO
+                        JOJACOMU
                     </Typography>
                     <Box
                         sx={{

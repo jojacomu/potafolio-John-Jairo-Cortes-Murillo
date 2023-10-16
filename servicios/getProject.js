@@ -1,4 +1,4 @@
-export const Projects = [
+export const projectsData = [
     {
         "name": "Swipe",
         "description": "Desarrollo de página en HTML y CSS",
@@ -6,7 +6,8 @@ export const Projects = [
         "tipo": "Formación",
         "enterprise": "DevTools Academy",
         "dateStart": "2023-03",
-        "dateEnd": "2023-04"
+        "dateEnd": "2023-04",
+        "photo":"/swipe.jpg"
     },
     {
         "name": "Hotels",
@@ -15,7 +16,8 @@ export const Projects = [
         "tipo": "Formación",
         "enterprise": "DevTools Academy",
         "dateStart": "2023-04",
-        "dateEnd": "2023-06"
+        "dateEnd": "2023-06",
+        "photo":"/hotels.jpg"
     },
     {
         "name": "Hotels (Versión 2)",
@@ -24,15 +26,17 @@ export const Projects = [
         "tipo": "Formación",
         "enterprise": "DevTools Academy",
         "dateStart": "2023-04",
-        "dateEnd": "2023-06"
+        "dateEnd": "2023-06",
+        "photo":"/hotelsV2.jpg"
     },
     {
         "name": "Cooempresa",
         "description": "Implementación de página web en Wordpressa",
         "year": "2022",
-        "tipo": "Contrato de prestación de servicios",
+        "type": "Contrato de prestación de servicios",
         "enterprise": "Fundación Tierra Nueva",
         "dateStart": "2022-06",
-        "dateEnd": "2022-08"
+        "dateEnd": "2022-08",
+        "photo":"/cooempresa.jpg"
     }
 ]
