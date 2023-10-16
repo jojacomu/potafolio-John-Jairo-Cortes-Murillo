@@ -1,0 +1,38 @@
+.containerInfo {
+    background: white;
+    box-shadow: rgba(48, 48, 48, 0.1) 0px 0.25rem 0.5rem;
+}
+
+.nameProject {
+    color: #e26811;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.descriptionProject {
+    font-size: 16px;
+}
+
+.year,
+.tipoProject,
+.datePeriod {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.buttonCardProject {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e26811;
+}
+
+.buttonCardProject:hover {
+    color: #e26811;
+    border: 1px solid #e26811;
+}
+
+.imageProject{
+    width: 250px;
+}

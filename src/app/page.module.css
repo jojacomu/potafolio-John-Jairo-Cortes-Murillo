@@ -1,0 +1,12 @@
+.resume {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+    background-color: rgba(218, 204, 204, 0.524);
+    border-radius: 10px;
+    margin: 20px;
+}
+.presume {
+    padding-top: 20px;
+}

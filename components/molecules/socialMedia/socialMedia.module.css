@@ -1,0 +1,7 @@
+.socialMedia{
+    font-size: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #1976d2;
+}
