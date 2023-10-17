@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import styles from "./cardTechnical.module.css";
-import { MainButton } from "../../atomos/main-button/mainButton";
+import { MainButton } from "../../atomos/main-button/main-button";
 import Link from "next/link";
 
 export const CardTechnical = ({ technical }) => {

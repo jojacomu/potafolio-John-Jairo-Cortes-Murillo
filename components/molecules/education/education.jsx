@@ -4,69 +4,68 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import styles from "./card.module.css";
-import { MainButton } from "../../atomos/main-button/mainButton";
+import styles from "./education.module.css";
+import { MainButton } from "../../atomos/main-button/main-button";
 import Link from "next/link";
 
-export const CardProject = ({ project }) => {
-    console.log(project.name);
+export const CardEducation = ({ progEducative }) => {
+    console.log(progEducative.name);
     return (
         <>
             <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
-                    className={styles.imageProject}
+                    className={styles.imageProgEducative}
                     component="img"
-                    alt={project.name}
+                    alt={progEducative.name}
                     height="200"
-                    image={project.photo}
-                    title={project.name}
+                    image={progEducative.photo}
+                    title={progEducative.name}
                 />
                 <CardContent className={styles.containerInfo}>
                     <Typography
                         gutterBottom
                         variant="h5"
                         component="div"
-                        className={styles.nameProject}
+                        className={styles.nameProgEducative}
                     >
-                        {project.name}
+                        {progEducative.name}
                     </Typography>
                     <Typography
                         variant="body2"
                         color="text.secondary"
-                        className={styles.descriptionProject}
+                        className={styles.descriptionProgEducative}
                     >
-                        {project.description}
+                        {progEducative.description}
                     </Typography>
                     <Typography
                         variant="body2"
                         color="text.secondary"
-                        className={styles.year}
+                        className={styles.levelProgEducative}
                     >
-                        Año: {project.year}
-                    </Typography>
-                    <Typography
-                        variant="body2"
-                        color="text.secondary"
-                        className={styles.tipoProject}
-                    >
-                        Tipo: {project.type}. Empresa: {project.enterprise}.
+                        Level: {progEducative.level}.
                     </Typography>
                     <Typography
                         variant="body2"
                         color="text.secondary"
                         className={styles.datePeriod}
                     >
-                        Fecha inicio: {project.dateStart}. Fecha fin:{" "}
-                        {project.dateEnd}
+                        From: {progEducative.dateStart}.
+                    </Typography>
+                    <Typography
+                        variant="body2"
+                        color="text.secondary"
+                        className={styles.datePeriod}
+                    >
+                        To: {progEducative.dateEnd}.
                     </Typography>
                 </CardContent>
                 <CardActions className={styles.containerButton}>
                     <MainButton
                         size="small"
-                        className={styles.buttonCardProject}
+                        className={styles.buttonCardProgEducative}
                     >
-                        <Link href={project.link} className={styles.aDetail}>
-                            Detalles
+                        <Link href={progEducative.link} className={styles.aDetail}>
+                            Detail
                         </Link>
                     </MainButton>
                 </CardActions>
