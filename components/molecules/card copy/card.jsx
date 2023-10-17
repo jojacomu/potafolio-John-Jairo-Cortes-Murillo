@@ -42,21 +42,22 @@ export const CardProject = ({ project }) => {
                         color="text.secondary"
                         className={styles.year}
                     >
-                        Year: {project.year}
+                        Año: {project.year}
                     </Typography>
                     <Typography
                         variant="body2"
                         color="text.secondary"
                         className={styles.tipoProject}
                     >
-                        Type: {project.type}. Enterpraise: {project.enterprise}.
+                        Tipo: {project.type}. Empresa: {project.enterprise}.
                     </Typography>
                     <Typography
                         variant="body2"
                         color="text.secondary"
                         className={styles.datePeriod}
                     >
-                        Start: {project.dateStart}. End: {project.dateEnd}
+                        Fecha inicio: {project.dateStart}. Fecha fin:{" "}
+                        {project.dateEnd}
                     </Typography>
                 </CardContent>
                 <CardActions className={styles.containerButton}>
@@ -65,7 +66,7 @@ export const CardProject = ({ project }) => {
                         className={styles.buttonCardProject}
                     >
                         <Link href={project.link} className={styles.aDetail}>
-                            Detail
+                            Detalles
                         </Link>
                     </MainButton>
                 </CardActions>

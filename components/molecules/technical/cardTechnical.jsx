@@ -5,14 +5,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import styles from "./cardTechnical.module.css";
-import { MainButton } from "../../atomos/main-button/Main-button";
+import { MainButton } from "../../atomos/main-button/mainButton";
 import Link from "next/link";
 
 export const CardTechnical = ({ technical }) => {
     console.log(technical.name);
     return (
         <>
-            <Card sx={{ maxWidth: 345 }} >
+            <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
                     className={styles.imageTechnology}
                     component="img"
@@ -53,10 +53,13 @@ export const CardTechnical = ({ technical }) => {
                     </Typography>
                 </CardContent>
                 <CardActions className={styles.containerButton}>
-                    <MainButton size="small" className={styles.buttonCardTechnology}>
-                    <Link href={technical.link} className={styles.aDetail}>
-                        Detail
-                    </Link>
+                    <MainButton
+                        size="small"
+                        className={styles.buttonCardTechnology}
+                    >
+                        <Link href={technical.link} className={styles.aDetail}>
+                            Detail
+                        </Link>
                     </MainButton>
                 </CardActions>
             </Card>
