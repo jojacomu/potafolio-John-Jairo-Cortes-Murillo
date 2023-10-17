@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Nunito_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Portfolio created by John Jairo Cortes Murillo',
