@@ -17,11 +17,11 @@ export const About = () => {
                     alt="john jairo cortes murillo"
                     title="john jairo cortes murillo"
                 />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
+                <CardContent className={styles.containerInfo}>
+                    <Typography gutterBottom variant="h5" component="div" className={styles.nameAbout}>
                     John Jairo Cortes Murillo
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.secondary"  className={styles.descriptionAbout}>
                     Frontend Developer || Marketer || Research economist || Techer. I like to generate value for users through the use of accessible and usable information and communication technologies. I am passionate about research and collaborative learning.
                     </Typography>
                 </CardContent>

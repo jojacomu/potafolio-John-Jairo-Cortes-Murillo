@@ -1,0 +1,45 @@
+.containerInfo {
+    background: white;
+    box-shadow: rgba(48, 48, 48, 0.1) 0px 0.25rem 0.5rem;
+}
+
+.nameProgEducative {
+    color: #142355;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.descriptionProgEducative {
+    font-size: 16px;
+}
+
+.year,
+.levelProgEducative,
+.datePeriod {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.buttonCardProgEducative {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #142355;
+}
+
+.buttonCardTechnology:hover {
+    color: #142355;
+    border: 1px solid #ffffff;
+}
+
+.imageProgEducative{
+    width: 100%;
+}
+
+.aDetail{
+    color: #ffffff;
+}
+.aDetail:hover{
+    color: #142355;
+}
