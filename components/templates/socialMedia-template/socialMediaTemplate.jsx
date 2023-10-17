@@ -1,5 +1,5 @@
-import { SocialMedia } from "../../molecules/socialMedia/socialMedia";
+import { SocialMediaOrg } from "../../organism/socialMediaOrg/socialMediaOrg";
 
 export const SocialMediaTemplate = () => {
-    return <SocialMedia />;
+    return <SocialMediaOrg />;
 };

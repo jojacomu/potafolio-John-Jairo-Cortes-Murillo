@@ -1,4 +1,5 @@
 .resume {
+    background-image: url("/public/vectorTierra.jpg");
     display: flex;
         justify-content: center;
         align-items: center;
@@ -20,4 +21,8 @@
     background-color: rgb(250, 250, 250);
     border-radius: 10px;
     margin: 20px;
+}
+.h2Page{
+    color:#142355;
+    font-size: larger;
 }

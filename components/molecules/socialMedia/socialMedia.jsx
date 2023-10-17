@@ -5,13 +5,13 @@ import Link from "next/link";
 export const SocialMedia = () => {
     return (
         <div>
-            <Link href={'https://www.faceboo.com/johnjcortesm'}>
+            <Link href={'https://www.facebook.com/johnjcortesm'}>
             <Facebook className={styles.socialMedia} />
             </Link>
             <Link href={'https://www.linkedin.com/in/johnjairocortesmurillo'}>
             <LinkedIn className={styles.socialMedia} />
             </Link>
-            <Link href='https://github.com/jojacomu'>
+            <Link href={'https://github.com/jojacomu'}>
             <GitHub className={styles.socialMedia} />
             </Link>
         </div>

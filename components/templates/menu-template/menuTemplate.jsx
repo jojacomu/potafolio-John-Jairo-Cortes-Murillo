@@ -1,6 +1,5 @@
-import React from "react";
-import { MainMenu } from "../../molecules/menu/menu";
+import { MenuOrg } from "../../organism/menuOrg/menuOrg";
 
 export const MenuTemplate = () => {
-    return <MainMenu />;
+    return <MenuOrg />;
 };

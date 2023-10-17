@@ -1,7 +1,7 @@
-import { About } from "../../molecules/about/about";
+import { AboutOrg } from "../../organism/aboutOrg/aboutOrg";
 
 export const AboutTemplate = ({children}) => {
     return (
-    <About>{children}</About>
+    <AboutOrg>{children}</AboutOrg>
         );
 };

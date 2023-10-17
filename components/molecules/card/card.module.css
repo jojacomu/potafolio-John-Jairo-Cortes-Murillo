@@ -4,7 +4,7 @@
 }
 
 .nameProject {
-    color: #e26811;
+    color: #142355;
     font-size: 28px;
     font-weight: bold;
 }
@@ -25,14 +25,21 @@
     font-size: 14px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #e26811;
+    background-color: #142355;
 }
 
 .buttonCardProject:hover {
-    color: #e26811;
-    border: 1px solid #e26811;
+    color: #142355;
+    border: 1px solid #ffffff;
 }
 
 .imageProject{
-    width: 250px;
+    width: 100%;
+}
+
+.aDetail{
+    color: #ffffff;
+}
+.aDetail:hover{
+    color: #142355;
 }
