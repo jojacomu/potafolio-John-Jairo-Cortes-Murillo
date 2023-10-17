@@ -42,20 +42,20 @@ export const CardTechnical = ({ technical }) => {
                         color="text.secondary"
                         className={styles.tipoTechnology}
                     >
-                        Tipo: {technical.type}.
+                        Type: {technical.type}.
                     </Typography>
                     <Typography
                         variant="body2"
                         color="text.secondary"
                         className={styles.datePeriod}
                     >
-                        Fecha inicio: {technical.dateStart}.
+                        From: {technical.dateStart}.
                     </Typography>
                 </CardContent>
                 <CardActions className={styles.containerButton}>
                     <MainButton size="small" className={styles.buttonCardTechnology}>
                     <Link href={technical.link} className={styles.aDetail}>
-                        Detalles
+                        Detail
                     </Link>
                     </MainButton>
                 </CardActions>
