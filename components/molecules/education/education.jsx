@@ -40,6 +40,13 @@ export const CardEducation = ({ progEducative }) => {
                     <Typography
                         variant="body2"
                         color="text.secondary"
+                        className={styles.institutionProgEducative}
+                    >
+                        Institution: {progEducative.institution}.
+                    </Typography>
+                    <Typography
+                        variant="body2"
+                        color="text.secondary"
                         className={styles.levelProgEducative}
                     >
                         Level: {progEducative.level}.

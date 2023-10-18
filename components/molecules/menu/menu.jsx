@@ -1,5 +1,4 @@
 'use client';
-import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -14,13 +13,15 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import PublicIcon from '@mui/icons-material/Public';
+import styles from "./menu.module.css"
+import { useState } from "react";
 
 const pages = ["Home", "About", "Projects", "Star projects", "Technical skills", "Education", "Recommendation", "Work experience"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export const MainMenu = () => {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
-    const [anchorElUser, setAnchorElUser] = React.useState(null);
+    const [anchorElNav, setAnchorElNav] = useState(null);
+    const [anchorElUser, setAnchorElUser] = useState(null);
 
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -38,7 +39,7 @@ export const MainMenu = () => {
     };
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" className={styles.containerMenu}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <PublicIcon
@@ -61,7 +62,6 @@ export const MainMenu = () => {
                     >
                         JOJACOMU
                     </Typography>
-
                     <Box
                         sx={{
                             flexGrow: 1,

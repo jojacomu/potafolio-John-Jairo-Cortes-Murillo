@@ -43,4 +43,26 @@ export const progEducative = [
         "photo":"/certificado.png",
         "link":"/#"
     },
+    {
+        "name": "Academy Program Name",
+        "description": "Description of Education",
+        "year": "AAAA",
+        "level": "Level academy",
+        "institution": "Institution Academy",
+        "dateStart": "AAAA-MM",
+        "dateEnd": "AAAA-MM",
+        "photo":"/certificado.png",
+        "link":"/#"
+    },
+    {
+        "name": "Academy Program Name",
+        "description": "Description of Education",
+        "year": "AAAA",
+        "level": "Level academy",
+        "institution": "Institution Academy",
+        "dateStart": "AAAA-MM",
+        "dateEnd": "AAAA-MM",
+        "photo":"/certificado.png",
+        "link":"/#"
+    }
 ]
